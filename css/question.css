@@ -1,0 +1,136 @@
+body{background-color: bisque;}
+.question_one{width: 800px;margin: 0 auto;height: 232px;margin-top: 20px;}
+.choose_answer ul li{float: left;cursor: pointer;}
+.choose_icon{background: url(../img/icon1.png) no-repeat center;width: 35px;height: 36px;display: block;float: left;margin-left: 65px;}
+.choose_icon2{background: url(../img/icon1.png) no-repeat center;width: 35px;height: 36px;display: block;float: left;cursor: pointer;}
+.choose_icon_hover{background: url(../img/icon2.png) no-repeat center;width: 35px;height: 36px;display: block;float: left;margin-left: 65px;}
+.choose_icon_hover2{background: url(../img/icon2.png) no-repeat center;width: 35px;height: 36px;display: block;float: left;cursor: pointer;}
+.answer_word{line-height: 36px;margin-left: 15px;}
+.btn{width: 70px;height: 35px;margin-top: 100px; border-radius: 3px;}
+.height{margin-top: 157px;}
+.height2{margin-top: 296px;}
+.right{display: none;}
+.wrong{display: none;}
+#next{display: none;}
+#show_animate{display: none;}
+.animate1{margin: 0 auto;display: none;width: 800px;height: 232px;}
+.animate2{margin: 0 auto;display: none;width: 800px;height: 232px;}
+
+.question_two{display: none;width: 800px;margin: 0 auto;height: 232px;margin-top: 20px;}
+#next2{display: none;}
+.wrong2-1{display: none;}
+.wrong2-2{display: none;}
+.right2{display: none;}
+.input_answer{margin-top: 50px;text-align: center;}
+#weight{width: 200px;height:30px;font-size: 20px;}
+.question_three{display: none;width: 800px;margin: 0 auto;height: 232px;margin-top: 20px;}
+
+#six{
+    width: 800px;
+    /*background-color: rgba(0,0,0,1);*/
+    top:55px;
+    opacity:1;
+    z-index:10;
+}
+#six .topic img{
+    display: block;
+    width: 26%;
+    margin: 0 23%;
+    margin-top: -20px;
+}
+.six-option{
+    width:100px;
+    height: 30px;
+    border: dashed 1px #5CA6DF;
+    border-radius: 5px;
+    color: black;
+    line-height: 30px;
+    text-align: center;
+    background-color: white;
+}
+.six-option1{
+    position: absolute;
+    left:29%;
+    top: 6%;
+    cursor: pointer;
+}
+.six-option2{
+    position: absolute;
+    left:36%;
+    top: 6%;
+    cursor: pointer;
+}
+.six-option3{
+    position: absolute;
+    left:43%;
+    top: 6%;
+    cursor: pointer;
+}
+.six-option4{
+    position: absolute;
+    left:50%;
+    top: 6%;
+    cursor: pointer;
+}
+.six-option5{
+    position: absolute;
+    left:29%;
+    top: 14%;
+    cursor: pointer;
+}
+.six-option6{
+    position: absolute;
+    left:36%;
+    top: 14%;
+    cursor: pointer;
+}
+.six-option7{
+    position: absolute;
+    left:43%;
+    top: 14%;
+    cursor: pointer;
+}
+.six-option8{
+    position: absolute;
+    left:50%;
+    top: 14%;
+    cursor: pointer;
+}
+.rightAnswer1{
+    position: relative;
+    color: red;
+    font-size: 14px;
+    display: inline-block;
+    margin-left:50%;
+    left: -130px;
+    margin-top: 20px;
+}
+.m-button3,.m-button4,.m-button5,.m-button6,.determineAdd{
+    background: url("img/button.png") center no-repeat;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='sprite.jpg',sizingMethod='scale');
+    background-size: cover;
+    width: 145px;
+    height: 42px;
+    text-align: center;
+
+    line-height: 42px;
+    color: white;
+    margin:15px auto;
+    cursor: pointer;
+}
+#next4{display: none;}
+.ul li{margin-right: 35px;float: left;width:252px ;}
+.answer{}
+.question_four{display: none;width: 650px;margin: 0 auto;height: 232px;margin-top: 20px;}
+.wrong4{display: none;}
+.right4{display: none;}
+
+
+
+.question_five{width: 800px;margin: 0 auto;display: none;margin-top: 20px;}
+.item_content ul { list-style: none; }
+.item_content ul li { width: 51px; height: 31px; float: left; margin: 10px }
+.item_content { width: 740px; height: auto;  float: left;}
+.item{color: white; border-radius: 3px; display: block;background-color: #5CA6DF;margin-right: 10px;width: 50px;height: 30px;text-align: center;line-height: 30px;cursor: pointer;}
+.wrong5{display: none;width: 100px;margin-top: 60px;}
+.right5{display: none;width: 100px;margin-top: 60px;}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/question.css" />
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/question.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+	</head>
+
+	<body>
+		<div class="question_one">
+			<div class="question">
+				<span>1</span>
+				<span>以下哪种抓取家兔的方法是正确的？（单选题）</span>
+			</div>
+			<div class="choose_answer clear">
+				<ul class="clear">
+					<li id="answer_A">
+						<img src="img/choose1.png" alt="" />
+						<div class="answer">
+							<span class="choose_icon" id="icon_A"></span>
+							<span class="answer_word">A</span>
+						</div>
+					</li>
+					<li id="answer_B">
+						<img src="img/choose2.png" alt="" />
+						<div class="answer">
+							<span class="choose_icon" id="icon_B"></span>
+							<span class="answer_word">B</span>
+						</div>
+					</li>
+					<li id="answer_C">
+						<img src="img/choose3.png" alt="" />
+						<div class="answer">
+							<span class="choose_icon" id="icon_C"></span>
+							<span class="answer_word">C</span>
+						</div>
+					</li>
+					<li id="answer_D">
+						<img src="img/choose4.png" alt="" />
+						<div class="answer">
+							<span class="choose_icon" id="icon_D"></span>
+							<span class="answer_word">D</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<span class="right">您的选择正确</span>
+			<span class="wrong">您的选择错误，正确答案为c</span>
+			<button class="fr btn" id="btn">提交</button>
+			<button class="fr btn" id="show_animate">查看动画</button>
+		</div>
+		<div class="animate1">
+			<iframe scrolling="no" frameborder="0" src="动画/1zhuona/index.html"></iframe>
+			<div id="">
+				描述：实验者一手抓住家兔颈部皮肤，将兔提起，另一手拖其臀部，使家兔呈坐位姿势。
+			</div>
+			<button class="fr btn height" id="next">下一题</button>
+		</div>
+		<div class="animate2">
+			<iframe scrolling="no" frameborder="0" src="动画/2chengzhong/index.html"></iframe>
+			<div id="">
+				描述：将家兔轻放置婴儿秤上称重。
+			</div>
+			<button class="fr btn height" id="show2">查看问题</button>
+		</div>
+		<div class="question_two">
+			<div class="question">
+				<span>2</span>
+				<span>请在下面的方框中输入正确合理的家兔体重</span>
+			</div>
+			<div class="input_answer">
+				<input type="text" spellcheck="false" id="weight" />
+				<span>kg</span>
+
+			</div>
+			<button class="fr btn height2" id="btn2">提交</button>
+			<span class="wrong2-1">错误，家兔体重过重或者体型偏大，不宜进行此实验</span>
+			<span class="wrong2-2">错误，家兔体重过轻或者体型偏小，不宜进行此实验</span>
+			<span class="right2">正确，家兔血压调节属于急性实验，一般选择成年动物。成年家兔体重范围1.5-3.5kg</span>
+		</div>
+		<div class="question_three">
+			<div class="question">
+				<span>3</span>
+				<span>排序题：请将下列选项拖拽至正确的方框中正确的操作流程</span>
+			</div>
+			<div id="six">
+				<div class="questionDiv">
+					<div class="questionContent">
+						<div class="topic">
+							<div class="six-option six-option1">A</div>
+							<div class="six-option six-option2">B</div>
+							<div class="six-option six-option3">C</div>
+							<div class="six-option six-option4">D</div>
+							<div class="six-option six-option5">1</div>
+							<div class="six-option six-option6">2</div>
+							<div class="six-option six-option7">3</div>
+							<div class="six-option six-option8">4</div>
+						</div>
+						<span class="rightAnswer1" style="opacity:0">正确答案是 1 2 3 4</span>
+						<button class="fr btn height2" id="btn3">提交</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="question_four">
+			<div class="question">
+				<span>1</span>
+				<span>请选择本实验抓取家兔的方式：（多选题）</span>
+			</div>
+			<div class="choose_answer clear">
+				<ul class="clear ul">
+					<li id="answer_A4">
+						<img src="img/choose1.png" alt="" />
+						<div class="answer">
+							<span class="choose_icon2" id="icon_A4"></span>
+							<span class="answer_word">A.呼吸频率及深度</span>
+						</div>
+					</li>
+					<li id="answer_B4">
+						<img src="img/choose2.png" alt="" />
+						<div class="answer">
+							<span class="choose_icon2" id="icon_B4"></span>
+							<span class="answer_word">B.角膜反射</span>
+						</div>
+					</li>
+					<li id="answer_C4">
+						<img src="img/choose3.png" alt="" />
+						<div class="answer">
+							<span class="choose_icon2" id="icon_C4"></span>
+							<span class="answer_word">C.肢体和腹壁骨骼肌的紧张度</span>
+						</div>
+					</li>
+					<li id="answer_D4">
+						<img src="img/choose4.png" alt="" />
+						<div class="answer">
+							<span class="choose_icon2" id="icon_D4"></span>
+							<span class="answer_word">D.对痛刺激的反应</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<span class="right4">您的选择正确</span>
+			<span class="wrong4">您的选择错误，正确答案为ABC</span>
+			<button class="fr btn" id="btn4">提交</button>
+			<button class="fr btn" id="next4">下一题</button>
+		</div>
+		<br />
+		<div class="question_five">
+			<div class="question">
+				<span>5</span>
+				<span>从大到小排序</span>
+			</div>
+			<div class="item_container">
+				<div class="item_content" id="imageChange">
+					<ul>
+						<li>
+							<div class="item">
+								<span>1</span> </div>
+						</li>
+						<li>
+							<div class="item">
+								<span>2</span> </div>
+						</li>
+						<li>
+							<div class="item">
+								<span>3</span> </div>
+						</li>
+						<li>
+							<div class="item">
+								<span>4</span> </div>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+			<span class="right5">您的排序正确</span>
+			<span class="wrong5">您的排序错误</span>
+			<button class="fr btn" id="btn5">提交</button>
+		</div>
+	</body>
+
+</html>
