@@ -1,0 +1,5 @@
+![Image text](https://github.com/ZzzJz/mono-choice-multiple-choice-drag-and-drop-sort/blob/master/show-image/1.PNG)
+![Image text](https://github.com/ZzzJz/mono-choice-multiple-choice-drag-and-drop-sort/blob/master/show-image/2.PNG)
+![Image text](https://github.com/ZzzJz/mono-choice-multiple-choice-drag-and-drop-sort/blob/master/show-image/3.PNG)
+![Image text](https://github.com/ZzzJz/mono-choice-multiple-choice-drag-and-drop-sort/blob/master/show-image/4.PNG)
+![Image text](https://github.com/ZzzJz/mono-choice-multiple-choice-drag-and-drop-sort/blob/master/show-image/5.PNG)
