@@ -1,31 +1,24 @@
 $(function() {
 	var judge;
+	var judge;
 	$("#answer_A").click(function() {
 		$("#icon_A").addClass("choose_icon_hover").removeClass("choose_icon");
-		$("#icon_B").addClass("choose_icon").removeClass("choose_icon_hover");
-		$("#icon_C").addClass("choose_icon").removeClass("choose_icon_hover");
-		$("#icon_D").addClass("choose_icon").removeClass("choose_icon_hover");
+		$("#icon_B，#icon_C,#icon_D").addClass("choose_icon").removeClass("choose_icon_hover");
 		judge = 1;
 	});
 	$("#answer_B").click(function() {
 		$("#icon_B").addClass("choose_icon_hover").removeClass("choose_icon");
-		$("#icon_A").addClass("choose_icon").removeClass("choose_icon_hover");
-		$("#icon_C").addClass("choose_icon").removeClass("choose_icon_hover");
-		$("#icon_D").addClass("choose_icon").removeClass("choose_icon_hover");
+		$("#icon_A，#icon_C,#icon_D").addClass("choose_icon").removeClass("choose_icon_hover");
 		judge = 2;
 	});
 	$("#answer_C").click(function() {
 		$("#icon_C").addClass("choose_icon_hover").removeClass("choose_icon");
-		$("#icon_B").addClass("choose_icon").removeClass("choose_icon_hover");
-		$("#icon_A").addClass("choose_icon").removeClass("choose_icon_hover");
-		$("#icon_D").addClass("choose_icon").removeClass("choose_icon_hover");
+		$("#icon_B，#icon_A,#icon_D").addClass("choose_icon").removeClass("choose_icon_hover");
 		judge = 3;
 	});
 	$("#answer_D").click(function() {
 		$("#icon_D").addClass("choose_icon_hover").removeClass("choose_icon");
-		$("#icon_B").addClass("choose_icon").removeClass("choose_icon_hover");
-		$("#icon_C").addClass("choose_icon").removeClass("choose_icon_hover");
-		$("#icon_A").addClass("choose_icon").removeClass("choose_icon_hover");
+		$("#icon_B，#icon_C,#icon_A").addClass("choose_icon").removeClass("choose_icon_hover");
 		judge = 4;
 	});
 	$("#btn").click(function() {
